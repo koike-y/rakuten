@@ -25,6 +25,7 @@ div.ts section:nth-child(4){background:url("https://img.travel.rakuten.co.jp/sha
 div.ts section:nth-child(1){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/edd7d556759ebf059fd7fa9982c1596835d8ac4d.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:0s;}
 div.ts section:nth-child(2){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/2d786554f0dfef8885ecff903197655c0dca316b.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:4s;}
 div.ts section:nth-child(3){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/ba736825eb7ef630fcb277daa625f00d2be6c243.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:8s;}
+div.ts section:nth-child(4){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/edd7d556759ebf059fd7fa9982c1596835d8ac4d.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:12s;}
 
 @keyframes bgchange{ 
 0%{animation-timing-function:ease-in; opacity:0;}
