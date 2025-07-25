@@ -1,0 +1,136 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+/*** body{font-family:serif; max-width:950px; margin:0; background:#fff!important; color:#897766; font-size:13px;
+z-index:-1;
+background-size:100% 100%;
+background-repeat:repeat-x;
+background-position:top center;
+}***/
+article{background:#fff; width:1120px; margin:0 auto; font-family:serif; color:#897766; font-size:13px;}
+article a:link{color:#897766; text-decoration:none;}
+article a:visited{color:#897766; text-decoration:none;}
+article a:hover{color:#897766; text-decoration:underline;}
+article a:active{color:#897766; text-decoration:none;}
+img{max-width:100%;}
+div.topslider{position:relative; width:100%; height:474px; margin:0 auto 5px;}
+div.ts{z-index:2; position:absolute; top:0; left:0; width:100%; height:474px; background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/fabe82208050d2879dabd06f84d77cacc857bef1.47.9.26.3.jpg") no-repeat top center; background-size:cover;}
+div.ts section{z-index:1; position:absolute; top:0; left:0; width:100%; height:474px; opacity:0; animation:bgchange 32s linear 0s infinite;}
+
+<!--
+div.ts section:nth-child(1){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/fabe82208050d2879dabd06f84d77cacc857bef1.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:0s;}
+div.ts section:nth-child(2){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/43bc103b8dbbb1d9705a1d62d1db88596dee3c04.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:4s;}
+div.ts section:nth-child(3){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/6e7fb53d207d7840f099e99f90d6cc829aa3818d.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:8s;}
+div.ts section:nth-child(4){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/07347028d34467971c1c710e6e98f417212abfda.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:12s;}
+-->
+
+div.ts section:nth-child(1){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/af0a3635608750b5879b487d03a756a1acdcd94b.47.9.26.3.jpeg") no-repeat top center; background-size:cover; animation-delay:0s;}
+div.ts section:nth-child(2){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/f26bd75febca28f32db712625beb36fe9b58dfdf.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:4s;}
+div.ts section:nth-child(3){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/1350429ed90447496be876cd623c8974cdab311b.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:8s;}
+div.ts section:nth-child(4){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/3800eaab839e6a1e76ac341d593ecbd313888f78.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:12s;}
+
+
+@keyframes bgchange{ 
+0%{animation-timing-function:ease-in; opacity:0;}
+10%{opacity:1}
+40%{animation-timing-function:ease-out; opacity:1;}
+50%{opacity:0}
+100%{opacity:0}https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/3800eaab839e6a1e76ac341d593ecbd313888f78.47.9.26.3.jpg
+}
+ul.bnavul{display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:center; width:100%; background:#897766; padding:15px; margin:0 0 5px;}
+ul.bnavul li a:link{color:#fff; text-decoration:none;}
+ul.bnavul li a:visited{color:#fff; text-decoration:none;}
+ul.bnavul li a:hover{color:#fff; text-decoration:underline;}
+ul.bnavul li a:active{color:#fff; text-decoration:none;}
+
+h2.topttl{text-align:center; font-size:26px; margin:0 auto 30px; letter-spacing:2px;}
+h2.topttll{text-align:center; font-size:30px; margin:0 auto 30px; letter-spacing:3px; line-height:1.4;}
+
+div.mbtn{margin:0 auto; width:fit-content; font-size:15px; letter-spacing:1px;}
+div.mbtn a{display:block; width:fit-content; background:#897766; padding:15px 40px; font-weight:bold;}
+div.mbtn a:link{color:#fff; text-decoration:none;}
+div.mbtn a:visited{color:#fff; text-decoration:none;}
+div.mbtn a:hover{color:#fff; text-decoration:underline; background:#ccc;}
+div.mbtn a:active{color:#fff; text-decoration:none;}
+
+div.osusume{margin:90px auto 60px;}
+div.other{margin:90px auto 150px;}
+div.season{width:100%; margin:0 auto;}
+div.season div.Rslider{margin:0 0 120px!important;}
+
+div.other ul{width:100%; margin:0 auto 30px;
+display:flex;
+-webkit-flex-flow:row wrap; flex-flow:row wrap; 
+-webkit-justify-content:space-between; justify-content:space-between;
+-webkit-align-items:flex-start; align-items:flex-start;}
+li.otl{width:48%; line-height:1.6; margin:0 0 30px;}
+li.otl img{margin:0 0 10px;}
+li.otl h3{font-size:14px; margin:0 0 15px; color:#897766;}
+li.otl p{font-size:12px; color:#222;}
+li.otl a{text-decoration:none;}
+li.otl a:hover{opacity:0.7;}
+
+div.osu{margin:0 auto; padding:0 0 90px;}
+div.osu ul{width:100%; margin:0 auto 20px;
+display:flex;
+-webkit-flex-flow:row wrap; flex-flow:row wrap; 
+-webkit-justify-content:space-between; justify-content:space-between;
+-webkit-align-items:flex-start; align-items:flex-start;}
+li.osl{width:48%; line-height:1.5; margin:0 0 30px;}
+li.osl img{margin:0 0 15px;}
+li.osl h3{font-size:14px; color:#897766;}
+li.osl a{text-decoration:none;}
+li.osl a:hover{opacity:0.7;}
+
+div.acs{padding:60px 5%; margin:0 0 60px; text-align:center; background:#F5F5F5; color:#000;}
+div.acs >img{width:520px; display:block; margin:0 auto 30px;}
+div.acs h3{margin:40px 0 20px; font-size:22px;}
+div.acs p{margin:0 0 20px; font-size:16px; font-weight:bold;}
+div.tag{width:fit-content; background:#897766; padding:12px 30px; font-size:18px; margin:0 auto 20px; color:#fff;}
+
+div.link{margin:0 0 90px;}
+div.link ul{width:100%; margin:0 auto 20px;
+display:flex;
+-webkit-flex-flow:row wrap; flex-flow:row wrap; 
+-webkit-justify-content:space-between; justify-content:space-between;
+-webkit-align-items:flex-start; align-items:flex-start;}
+div.link ul li a img:hover{opacity:0.7;}
+li.lll{width:48%; margin:0 0 30px;}
+
+div.fbox{width:100%; margin:0 0 90px;}
+div.bbox{position:relative; width:100%; margin:0 auto 90px;}
+div.bbox div.rr{width:52%!important; padding:60px 0!important;}
+div.bbox div.rrs{width:52%!important; margin:0 0 0 auto; padding:60px 0!important;}
+img.a{position:absolute; top:0; right:0; width:53%; z-index:2;}
+img.as{position:absolute; top:0; left:0; width:53%; z-index:2;}
+div.mb{margin:0 auto 160px!important;}
+div.llbox{width:100%; margin:0 auto 90px;}
+div.llbox img{margin:0 auto 30px;}
+
+footer h3{background:#897766; color:#fff; padding:15px; margin:0 0 15px; font-weight:bold;}
+footer img{width:300px; display:block; margin:0 0 15px;}
+footer p{color:#000; line-height:1.8; margin:0 0 15px;}
+footer small{color:#000;}
+/*-----------------------------------------------------------
+    .slider
+-----------------------------------------------------------*/
+.Rslider { position: relative; overflow: hidden; padding:0 0 30px;}
+.Rslider * { margin: 0; padding: 0; }
+.Rslider ul {list-style: none;}
+.Rslider img { vertical-align: top; }
+.Rslider .sliders li { position: absolute; top: 0; width:100%;}
+
+div.sss{position:relative; width:100%; padding:0 0 40px!important;
+display:flex;
+-webkit-flex-flow:row nowrap; flex-flow:row nowrap; 
+-webkit-justify-content:space-between; justify-content:space-between;
+-webkit-align-items:center; align-items:center;}
+div.sss img{width:50%;}
+div.sss section{width:50%; padding:0 0 0 30px;}
+div.sss section h3{font-size:16px; line-height:1.8; margin:0 0 20px;}
+.sliders_point_nav { position: absolute; right:0; bottom:8px; left:0; height:12px; margin:0 auto; }
+.sliders_point_nav li {float: left; margin-right: 10px;  padding: 6px; cursor: pointer;border-radius: 50%; background-color: #ccc;}
+.sliders_point_nav li:hover { background-color: #fff; }
+.sliders_point_nav li:last-of-type { margin-right: 0; }
+.sliders_point_nav li.ac { background-color: #897766; }
+
+.cf:before, .cf:after {display: table; content: ''; }
+.cf:after { clear: both; }
