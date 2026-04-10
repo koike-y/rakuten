@@ -19,7 +19,7 @@ div.ts section:nth-child(1){background:url("https://img.travel.rakuten.co.jp/sha
 div.ts section:nth-child(2){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/87d05a3ecb19c9d5e6b2fc934ea9082daabad907.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:4s;}
 div.ts section:nth-child(3){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/0f4a1c5b052085447264ecdb71955ae974e5b73d.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:8s;}
 div.ts section:nth-child(4){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/13888e15998461e2be01c77013aa47263218810a.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:12s;}
-div.ts section:nth-child(5){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/3d44e8b6471fdec1ffd3f93fe3f16a4f67ff5607.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:15s;}
+div.ts section:nth-child(5){background:url("https://img.travel.rakuten.co.jp/share/image_up/164639/LARGE/3d44e8b6471fdec1ffd3f93fe3f16a4f67ff5607.47.9.26.3.jpg") no-repeat top center; background-size:cover; animation-delay:16s;}
 
 @keyframes bgchange{ 
 0%{animation-timing-function:ease-in; opacity:0;}
